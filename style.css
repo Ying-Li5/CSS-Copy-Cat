@@ -1,0 +1,106 @@
+body {
+    background-color: #202634;
+    color: white;
+    margin: 50px 150px;
+    font-family: sans-serif;
+}
+
+.hero, .video {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    padding: 20px
+}
+
+.multiplayer, .store1, .farm-map, .store2, .signs {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    padding: 20px;
+}
+
+.farm-map {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    width: 25%;
+}
+
+.info li {
+    list-style: none;
+    text-align: left;
+}
+
+li {
+    list-style: square;
+
+}
+
+.navbar {
+    background-color: #283044;
+    border: #283044 1px solid;
+    box-shadow:0 20px 20px -20px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 2000px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.button1, .button2 {
+    position: fixed;
+    left: 20px;
+    background-color: #283044;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.button1 {
+    top: 40px;
+}
+
+.button1:hover, .button2:hover {
+    background-color: #373F51;
+}
+
+.button2 {
+    top: 80px;
+}
+
+.placeholder-top {
+    border: 1px black solid;
+}
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2, h3, .h3-links {
+    font-weight: bold;
+    color: white;
+}
+
+.title p {
+    text-align: left;
+    font-size: smaller;
+}
+
+.guide-section {
+    text-align: left;
+    padding: 10px;
+}
